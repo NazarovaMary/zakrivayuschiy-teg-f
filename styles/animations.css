@@ -52,6 +52,8 @@
 
 .like-icon .main-body {
   fill: transparent;
+  transition-delay: 0.05s;
+  transition: fill 0.3s linear;
 }
 
 .like-icon .sparks {
@@ -62,11 +64,6 @@
 
 .like-icon .core {
   fill: transparent;
-  transition: fill 0.3s linear;
-}
-
-.like-icon .main-body {
-  transition-delay: 0.05s;
   transition: fill 0.3s linear;
 }
 

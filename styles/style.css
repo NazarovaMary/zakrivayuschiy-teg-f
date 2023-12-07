@@ -71,7 +71,7 @@
   position: relative;
   border: none;
   text-transform: uppercase;
-  transition: color 0.3s ease, opacity 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
 .theme-menu__button:disabled {
@@ -87,7 +87,6 @@
 .theme-menu__button:hover,
 .theme-menu__button:disabled {
   opacity: 0.6;
-  color: var(--accent-color);
 }
 
 .theme-menu__button:disabled:hover {
@@ -140,17 +139,19 @@
 .card__photo-container {
   position: relative;
   overflow: hidden;
-  border-top: 2px solid var(--text-color);
-  border-bottom: 2px solid var(--text-color);
+  border-top: 2px solid var(--border-bottom);
+  border-bottom: 2px solid var(--border-bottom);
 }
 
 .card__photo-mark {
   position: absolute;
   font-size: 14px;
-  right: 10px;
-  top: 25px;
+  inset-block-start: 25px;
+  inset-inline-end: 25px;
   font-family: var(--title-font-family);
+  font-variation-settings: "wght" var(--teg-font-weight);
   opacity: 0.5;
+  z-index: 1;
   mix-blend-mode: hard-light;
   text-shadow: -1px -1px 0 var(--line-color), 1px -1px 0 var(--line-color),
     -1px 1px 0 var(--line-color), 1px 1px 0 var(--line-color);
@@ -160,10 +161,10 @@
   (text-stroke: 1px var(--photo-mark-color, #fff)) or
     (-webkit-text-stroke: 1px var(--photo-mark-color, #fff))
 ) {
-  .card__photo-mark {
+  /*.card__photo-mark {
     text-stroke: 1px var(--photo-mark-color, #fff);
     -webkit-text-stroke: 1px var(--photo-mark-color, #fff);
-  }
+  }*/
 }
 
 .card__photo-image {
@@ -182,16 +183,11 @@
   gap: 27px;
 }
 
-.text__underphoto {
-  border: 2px solid var(--accent-color, #000);
-  padding: 25px;
-}
-
 .card__item_text {
   font-family: var(--main-font-family, sans-serif);
-  font-weight: 400;
   font-size: var(--main-font-size, 18px);
   color: var(--accent-color, #000);
+  /*font-variation-settings: "wght" var(--teg-font-weight);*/ /*из-за свойства едет текст, основное в page*/
 }
 
 /*LIKE and button*/
@@ -218,7 +214,7 @@
   display: flex;
   align-items: center;
   margin: 0 25px 25px 0;
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 }
 
 .like-icon {
@@ -233,7 +229,7 @@
   position: relative;
   background-color: transparent;
   max-block-size: 38px;
-  transition: border-color 0.3s;
+  transition: border 0.3s ease-in-out;
   width: 41px;
   height: 38px;
   margin-right: 3px;

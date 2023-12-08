@@ -149,7 +149,7 @@
   inset-block-start: 25px;
   inset-inline-end: 25px;
   font-family: var(--title-font-family);
-  font-variation-settings: "wght" var(--teg-font-weight);
+  font-weight: var(--teg-font-weight);
   opacity: 0.5;
   z-index: 1;
   mix-blend-mode: hard-light;
@@ -161,10 +161,10 @@
   (text-stroke: 1px var(--photo-mark-color, #fff)) or
     (-webkit-text-stroke: 1px var(--photo-mark-color, #fff))
 ) {
-  /*.card__photo-mark {
+  .card__photo-mark {
     text-stroke: 1px var(--photo-mark-color, #fff);
     -webkit-text-stroke: 1px var(--photo-mark-color, #fff);
-  }*/
+  }
 }
 
 .card__photo-image {

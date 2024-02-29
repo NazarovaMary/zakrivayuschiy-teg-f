@@ -1,8 +1,10 @@
-Ссылка проекта на github - https://github.com/MGKrupkina/zakrivayuschiy-teg-f.git
-
 Вёрстка макета "Закрывающий тег"
 
-Ссылки на файлы проекта:
+<h3>Ссылка проекта на github - </h3> 
+
+https://github.com/MGKrupkina/zakrivayuschiy-teg-f.git
+
+<h3>Ссылки на файлы проекта:</h3>
 
 html-страница сайта (<a href="https://github.com/MGKrupkina/zakrivayuschiy-teg-f/blob/main/index.html" target="_blank">index.html</a>)
 
@@ -19,7 +21,7 @@ svg изображения (<a href="https://github.com/MGKrupkina/zakrivayuschi
 автотесты (<a href="https://github.com/MGKrupkina/zakrivayuschiy-teg-f/blob/main/.github/workflows/tests.yml" target="_blank">tests.yml</a>)
 
 
-<a href="https://www.figma.com/file/JQhPLs2COLIeZtAtlsBS34/%238-%3C%2Fзакрывающий-тег%3E?type=design&node-id=0-1&mode=design" target="_blank">Макет (перейти по ссылке)</a>
+<h3><a href="https://www.figma.com/file/JQhPLs2COLIeZtAtlsBS34/%238-%3C%2Fзакрывающий-тег%3E?type=design&node-id=0-1&mode=design" target="_blank">Макет (перейти по ссылке)</a></h3>
 
 
 ![screenshot_desktop_light](https://github.com/MGKrupkina/zakrivayuschiy-teg-f/assets/145542673/e43cceb7-43bc-40db-b375-a5a33c167ecd)

@@ -16,7 +16,7 @@ html-страница сайта (<a href="https://github.com/NazarovaMary/zakri
 
 изображения (<a href="https://github.com/NazarovaMary/zakrivayuschiy-teg-f/tree/main/images" target="_blank">images</a>)
 
-svg изображения (<a href="https://github.com/NazarovaMary/zakrivayuschiy-teg-f/tree/main/svg" target="_blank">scripts</a>)
+svg изображения (<a href="https://github.com/NazarovaMary/zakrivayuschiy-teg-f/tree/main/svg" target="_blank">svg</a>)
 
 автотесты (<a href="https://github.com/NazarovaMary/zakrivayuschiy-teg-f/blob/main/.github/workflows/tests.yml" target="_blank">tests.yml</a>)
 
